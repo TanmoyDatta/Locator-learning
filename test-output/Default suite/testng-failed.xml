@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="locator.DarazWebAutomateWithLocator">
+      <class name="handle_web_element.TC05_Actions">
         <methods>
           <include name="setDriver"/>
+          <include name="TestDifferntAction"/>
           <include name="quitDriver"/>
-          <include name="name1"/>
         </methods>
-      </class> <!-- locator.DarazWebAutomateWithLocator -->
+      </class> <!-- handle_web_element.TC05_Actions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

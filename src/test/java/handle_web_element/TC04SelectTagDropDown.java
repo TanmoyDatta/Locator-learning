@@ -27,7 +27,7 @@ public class TC04SelectTagDropDown extends DriverSetUp{
 		assertEquals(select.getFirstSelectedOption().getText(),"Option2");
 		Thread.sleep(2000);
 		
-//		select.selectByIndex(2);
+		select.selectByIndex(2);
 //		
 //		SoftAssert softAssert =new SoftAssert();
 //		

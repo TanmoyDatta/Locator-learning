@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-25T14:28:52 BDT" name="Default suite" finished-at="2023-02-25T14:29:10 BDT" duration-ms="18099">
+  <suite started-at="2023-02-26T20:00:23 BDT" name="Default suite" finished-at="2023-02-26T20:00:35 BDT" duration-ms="12571">
     <groups>
     </groups>
-    <test started-at="2023-02-25T14:28:52 BDT" name="Default test" finished-at="2023-02-25T14:29:10 BDT" duration-ms="18099">
-      <class name="handle_web_element.TC05_Actions">
-        <test-method is-config="true" signature="setDriver()[pri:0, instance:handle_web_element.TC05_Actions@a38c7fe]" started-at="2023-02-25T14:28:48 BDT" name="setDriver" finished-at="2023-02-25T14:28:52 BDT" duration-ms="3760" status="PASS">
+    <test started-at="2023-02-26T20:00:23 BDT" name="Default test" finished-at="2023-02-26T20:00:35 BDT" duration-ms="12571">
+      <class name="handle_web_element.JsInAutomatation">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:handle_web_element.JsInAutomatation@a38c7fe]" started-at="2023-02-26T20:00:19 BDT" name="setDriver" finished-at="2023-02-26T20:00:23 BDT" duration-ms="4367" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method signature="TestDifferntAction()[pri:0, instance:handle_web_element.TC05_Actions@a38c7fe]" started-at="2023-02-25T14:28:52 BDT" name="TestDifferntAction" finished-at="2023-02-25T14:29:10 BDT" duration-ms="18029" status="PASS">
+        <test-method signature="ScrollUsingJs()[pri:0, instance:handle_web_element.JsInAutomatation@a38c7fe]" started-at="2023-02-26T20:00:23 BDT" name="ScrollUsingJs" finished-at="2023-02-26T20:00:35 BDT" duration-ms="12491" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestDifferntAction -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:handle_web_element.TC05_Actions@a38c7fe]" started-at="2023-02-25T14:29:10 BDT" name="quitDriver" finished-at="2023-02-25T14:29:10 BDT" duration-ms="333" status="PASS">
+        </test-method> <!-- ScrollUsingJs -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:handle_web_element.JsInAutomatation@a38c7fe]" started-at="2023-02-26T20:00:35 BDT" name="quitDriver" finished-at="2023-02-26T20:00:36 BDT" duration-ms="405" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-      </class> <!-- handle_web_element.TC05_Actions -->
+      </class> <!-- handle_web_element.JsInAutomatation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -23,6 +23,7 @@ public class TC04SelectTagDropDown extends DriverSetUp{
 		
 		
         select.selectByIndex(2);
+       
         System.out.println(select.getOptions().get(3).getText());	
 		assertEquals(select.getFirstSelectedOption().getText(),"Option2");
 		Thread.sleep(2000);

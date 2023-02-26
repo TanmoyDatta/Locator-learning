@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="handle_web_element.TC05_Actions">
+      <class name="handle_web_element.JsInAutomatation">
         <methods>
+          <include name="ScrollUsingJs"/>
           <include name="setDriver"/>
-          <include name="TestDifferntAction"/>
           <include name="quitDriver"/>
         </methods>
-      </class> <!-- handle_web_element.TC05_Actions -->
+      </class> <!-- handle_web_element.JsInAutomatation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
